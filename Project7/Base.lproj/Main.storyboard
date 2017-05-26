@@ -54,11 +54,11 @@
             </objects>
             <point key="canvasLocation" x="1773.5999999999999" y="96.7016491754123"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="ASJ-ye-oyC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JfK-Bz-ogR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="kwT-cY-p3j"/>
+                <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="JfK-Bz-ogR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="mostRecent" id="kwT-cY-p3j"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bdW-Ws-gDn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -79,6 +79,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jEd-ye-7lc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="wF8-c6-YKv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
