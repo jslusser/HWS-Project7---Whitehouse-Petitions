@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  Project7
+//  Project7 + Project 9 Grand Central Dispatch
 //
 //  Created by James Slusser on 5/26/17.
 //  Copyright © 2017 James Slusser. All rights reserved.
